@@ -1,2 +1,0 @@
-# ProyectoAustin
-Created with CodeSandbox
