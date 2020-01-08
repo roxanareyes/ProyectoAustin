@@ -4,20 +4,23 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "homepage": "https://oscarryz.github.io/ProyectoAustin/",
   "dependencies": {
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^3.3.0",
     "semantic-ui-react": "0.88.2"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "typescript": "3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
